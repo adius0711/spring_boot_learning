@@ -1,0 +1,9 @@
+GRPC localhost:9001/BillingService/CreateBillingAccount
+proto: src/main/proto/billing_service.proto
+Content-Type: application/json
+
+{
+  "patientId": "123455",
+  "name": "Aditya Athota",
+  "email": "athota.adi6@gmail.com"
+}

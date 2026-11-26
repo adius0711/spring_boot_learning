@@ -1,0 +1,13 @@
+### POST request to example server
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Aditya GRPC",
+  "email": "athota.adi.us@gmail.com",
+  "address": "123 Test St",
+  "dateOfBirth": "1996-07-11",
+  "registeredDate": "2026-11-20"
+}
+
+###
